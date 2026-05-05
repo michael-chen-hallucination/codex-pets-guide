@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Large downloaded packages are optional. Remove these lines if you want GitHub to store zip files.
+downloads/*.zip
+
+# Keep extracted pets if you want your GitHub repo to act as a personal pet library.
