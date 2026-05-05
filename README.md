@@ -1,35 +1,38 @@
-# Codex Pets 新手选择与安装指南
+# Codex Pets Beginner Guide
 
-这个仓库用来记录你从 [Codex Pets](https://codex-pets.net/#/?sort=popular&kind=person) 挑选、下载、保存并安装到 Codex 的宠物。
+**Language:** English | [中文](./README.zh-CN.md)
 
-适合完全新手：从打开网站开始，到把喜欢的 pet 放进 Codex。
+This repository helps you choose, download, save, and install your favorite pet from [Codex Pets](https://codex-pets.net/#/?sort=popular&kind=person) for your own Codex setup.
 
-## 你会得到什么
+It is written for beginners: start from opening the website, pick a pet you like, download it, and install it in Codex.
 
-- 一份一步一步的中文教程
-- 一个存放下载宠物包的位置
-- 一个记录自己喜欢的 pet 的清单模板
-- 上传到 GitHub 后，可以把这个仓库当作自己的 Codex pet 收藏夹
+## What This Repo Includes
 
-## 第 1 步：打开 Codex Pets 网站
+- A step-by-step beginner guide
+- A folder for downloaded pet packages
+- A folder for extracted pet files
+- A simple list for tracking your favorite pets
+- A GitHub-friendly structure you can use as your personal Codex pet collection
 
-1. 打开浏览器。
-2. 进入这个网址：
+## Step 1: Open Codex Pets
+
+1. Open your browser.
+2. Go to:
 
    ```text
    https://codex-pets.net/#/?sort=popular&kind=person
    ```
 
-3. 这个页面会按 popular 排序，并筛选 person 类型的宠物。
-4. 如果页面没有马上显示内容，刷新一次浏览器。
+3. This link sorts pets by popularity and filters for `person` pets.
+4. If the page does not load immediately, refresh the browser once.
 
-说明：`codex-pets.net` 一般不需要登录就能浏览和下载。你需要登录的是 GitHub 或 Codex 应用本身。
+Note: `codex-pets.net` usually does not require an account for browsing, previewing, or downloading pets. The login you may need is for GitHub or the Codex app.
 
-## 第 2 步：挑选你喜欢的 pet
+## Step 2: Pick a Pet You Like
 
-1. 在页面中上下滚动，查看不同的 pet。
-2. 找到喜欢的角色后，点击它的卡片或详情入口。
-3. 在详情页里先看预览动作，例如：
+1. Scroll through the page and browse the available pets.
+2. When you find one you like, open its card or detail page.
+3. Preview its animations, such as:
    - Idle
    - Run Right
    - Run Left
@@ -39,37 +42,37 @@
    - Waiting
    - Run
    - Review
-4. 如果你喜欢这个 pet 的样子和动作，就继续下载。
+4. If you like the look and animations, continue to download it.
 
-## 第 3 步：下载 pet
+## Step 3: Download the Pet
 
-1. 在 pet 详情页点击 `Download` 或 `Free Download`。
-2. 浏览器会下载一个 `.zip` 文件。
-3. 下载完成后，不要直接删除这个 zip。建议先放到本仓库的 `downloads/` 文件夹里保存。
+1. On the pet detail page, click `Download` or `Free Download`.
+2. Your browser will download a `.zip` file.
+3. Keep the zip file somewhere safe. This repo includes a `downloads/` folder for that purpose.
 
-推荐命名方式：
+Recommended naming:
 
 ```text
 downloads/pet-name.zip
 ```
 
-例如：
+Example:
 
 ```text
 downloads/dad-coder.zip
 ```
 
-## 第 4 步：解压 pet
+## Step 4: Extract the Pet
 
-1. 双击下载好的 `.zip` 文件解压。
-2. 解压后通常会看到这些文件：
+1. Double-click the `.zip` file to extract it.
+2. The extracted folder usually contains files like:
    - `pet.json`
-   - `spritesheet.webp` 或 `spritesheet.png`
-   - `preview.webp` 或 `preview.png`
-   - 可能还有 `validation.json`、`source-sheet.png`
-3. 把解压后的完整文件夹放到本仓库的 `pets/` 目录中。
+   - `spritesheet.webp` or `spritesheet.png`
+   - `preview.webp` or `preview.png`
+   - sometimes `validation.json` or `source-sheet.png`
+3. Move the complete extracted folder into this repo's `pets/` directory.
 
-推荐结构：
+Recommended structure:
 
 ```text
 pets/
@@ -79,15 +82,15 @@ pets/
     preview.webp
 ```
 
-## 第 5 步：安装到 Codex
+## Step 5: Install the Pet in Codex
 
-在 macOS 或 Linux 上，Codex 自定义 pet 通常放在：
+On macOS or Linux, custom Codex pets usually live here:
 
 ```text
 ~/.codex/pets/
 ```
 
-如果你的 pet 文件夹叫 `dad-coder`，最终路径应该类似：
+If your pet folder is named `dad-coder`, the final path should look like this:
 
 ```text
 ~/.codex/pets/dad-coder/
@@ -95,56 +98,58 @@ pets/
   spritesheet.webp
 ```
 
-复制方式：
+Copy it with:
 
 ```bash
 mkdir -p ~/.codex/pets
 cp -R pets/dad-coder ~/.codex/pets/
 ```
 
-然后打开 Codex：
+Then open Codex:
 
-1. 打开 Codex App。
-2. 进入 `Settings`。
-3. 找到 `Appearance`。
-4. 打开 `Pets`。
-5. 选择你刚刚安装的自定义 pet。
-6. 在 Codex 输入框里输入：
+1. Open the Codex app.
+2. Go to `Settings`.
+3. Open `Appearance`.
+4. Find `Pets`.
+5. Select the custom pet you installed.
+6. In the Codex input box, type:
 
    ```text
    /pet
    ```
 
-7. 你的 pet 就会出现。再次输入 `/pet` 可以收起。
+7. Your pet should appear. Type `/pet` again to hide it.
 
-## 第 6 步：记录你的收藏
+## Step 6: Track Your Favorites
 
-把你喜欢的 pet 记录到 [pets-list.md](./pets-list.md)。
+Use [pets-list.md](./pets-list.md) to record the pets you like.
 
-建议记录：
+Useful fields to track:
 
-- pet 名字
-- 下载网址
-- 是否已经安装
-- 你喜欢它的原因
+- Pet name
+- Type
+- Download or detail URL
+- Whether it has been downloaded
+- Whether it has been installed
+- Notes about why you like it
 
-## 第 7 步：上传到你的 GitHub
+## Step 7: Push This Repo to GitHub
 
-如果你还没有登录 GitHub CLI，先运行：
+If you are not logged in to GitHub CLI yet, run:
 
 ```bash
 gh auth login
 ```
 
-按提示选择：
+Choose:
 
 1. `GitHub.com`
 2. `HTTPS`
 3. `Login with a web browser`
-4. 复制终端里的验证码
-5. 在浏览器中登录 GitHub 并确认授权
+4. Copy the one-time code from your terminal
+5. Log in through the browser and authorize GitHub CLI
 
-登录后，在这个文件夹里运行：
+After login, run this inside the repo folder:
 
 ```bash
 git init
@@ -153,36 +158,36 @@ git commit -m "Add Codex Pets beginner guide"
 gh repo create codex-pets-guide --public --source=. --remote=origin --push
 ```
 
-如果你想建私有仓库，把 `--public` 换成：
+For a private repository, replace `--public` with:
 
 ```bash
 --private
 ```
 
-## 常见问题
+## FAQ
 
-### 我需要登录 codex-pets.net 吗？
+### Do I need to log in to codex-pets.net?
 
-通常不需要。你可以直接打开网站浏览、预览和下载。
+Usually no. You can browse, preview, and download directly from the website.
 
-### 下载后 Codex 找不到 pet 怎么办？
+### Codex cannot find my pet. What should I check?
 
-检查这三件事：
+Check these three things:
 
-1. 文件夹是否放在 `~/.codex/pets/` 下面。
-2. 文件夹里是否有 `pet.json`。
-3. 文件夹里是否有 `spritesheet.webp` 或 `spritesheet.png`。
+1. The pet folder is under `~/.codex/pets/`.
+2. The folder contains `pet.json`.
+3. The folder contains `spritesheet.webp` or `spritesheet.png`.
 
-### pet 没有动怎么办？
+### My pet does not show up. What should I do?
 
-先确认你在 Codex 里输入了：
+First, type this in Codex:
 
 ```text
 /pet
 ```
 
-然后去 `Settings > Appearance > Pets` 检查是否选中了对应 pet。
+Then check `Settings > Appearance > Pets` and make sure your custom pet is selected.
 
-## 参考链接
+## Reference
 
-- [Codex Pets person popular 页面](https://codex-pets.net/#/?sort=popular&kind=person)
+- [Codex Pets popular person page](https://codex-pets.net/#/?sort=popular&kind=person)
