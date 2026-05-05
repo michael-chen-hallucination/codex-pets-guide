@@ -2,6 +2,7 @@
 
 | Pet 名字 | 类型 | 下载/详情链接 | 已下载 | 已安装 | 备注 |
 | --- | --- | --- | --- | --- | --- |
+| Trump | person | https://codex-pets.net/#/?sort=popular&kind=person | 是 | 是 | 当前使用的 Codex pet |
 | 示例：Dad Coder | person | https://codexpets.net/pets/dad-coder | 否 | 否 | 温暖的程序员角色 |
 
 ## 使用方法
@@ -13,4 +14,3 @@
 - `是`
 - `否`
 - `想试试`
-
